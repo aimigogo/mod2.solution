@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+
+
+}
+
+h1{
+	font-family: "Times New Roman",Times,serif;	
+	text-align:center;
+	color:black;
+}
+h2{	
+	background-color: red;
+	overflow: none;
+	text-align: center;
+  	border: 1px thick black;
+  	width: 100px;
+  	height: 40px;
+  	padding: 5px;
+  	float: right;
+  	margin-right: 36px;
+ 	margin-top: 0px;
+  	font-weight: bold;
+  	position: relative;
+	
+	
+	
+}
+h3{	
+	background-color: lightpink;
+	overflow: none;
+	text-align: center;
+	border: 1px thick black;
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	float: right;
+	margin-right: 36px;
+	margin-top: 0px;
+	font-weight: bold;
+	position: relative;
+}
+h4{	
+	background-color: lightyellow;
+	overflow: none;
+	text-align: center;
+  	border: 1px thick black;
+  	width: 100px;
+  	height: 40px;
+  	padding: 5px;
+  	float: right;
+  	margin-right: 36px;
+  	margin-top: 0px;
+  	font-weight: bold;
+  	position: relative;
+}
+p{
+	
+	padding: 0px;
+	margin: 10px;
+	background-color: lightgrey;
+	margin-right: auto;
+  	margin-left: auto;
+	
+	
+		
+}
+.row{
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+.box{
+  width: 100%;
+  overflow: none;
+  border: 1px thick black;
+}
+  
+}
+/*Desktop*/
+@media(min-width:992px){
+	.col-lg-4{
+    float: left;
+    border: 1px solid black;
+    width: 33.33;
+  }
+  
+  /*.col-lg-4 {
+    width: 33.33%;
+  } */ 
+}
+/*Tablet*/
+@media(min-width:768px) and (max-width:991px){
+	.col-md-6, .col-md-12{
+    float: left;
+    border: 1px solid black;
+  }  
+  .col-md-6 {
+  	width: 50%;
+  }  
+  .col-md-12 {
+  	width: 100%;
+  }
+}
+/*Mobile*/
+@media (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+
